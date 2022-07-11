@@ -4,14 +4,30 @@ const router = express.Router();
 
 // Get all Courses
 router.get("/", async (req, res) => {
-  const course = await Courses.find().populate('type').populate({
+ /*const course = await Courses.find().populate('type').populate({
     path : 'stream',
     match: {stream : {$eq : req.query.stream }}
   }).populate({
     path : 'subject',
     match: {subject : {$eq : req.query.subject}}
   }).populate('lastUpdatedBy').limit( req.query.limit || 10);
-  res.send(course);
+  res.send(course); */
+
+
+  const course = await Courses.find().populate({
+    path: 'subjects',
+    match: {
+      subject: req.query.subject
+    }
+  }).exec(function(err, courses) {
+   
+    courses = courses.filter(function(course) {
+    console.log(course.subjects);
+
+      return course.subject; // return only users with email matching 'type: "Gmail"' query
+      
+    });
+  });
 });
 
 // Get all Courses
