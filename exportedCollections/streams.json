@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "62cc39cdbf3bd6175fb3d5db"
+  },
+  "title": "Science",
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657551309251"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657551309251"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cc3a06bf3bd6175fb3d5dd"
+  },
+  "title": "Arts",
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657551366994"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657551366994"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cc3a20bf3bd6175fb3d5df"
+  },
+  "title": "Commerce",
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657551392106"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657551392106"
+    }
+  },
+  "__v": 0
+}]

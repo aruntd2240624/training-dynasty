@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "name": "Arun",
+  "email": "arun@gmail.com",
+  "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+  "role": {
+    "$oid": "62cc37cf28f5e7335210aee0"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657550963056"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657550963057"
+    }
+  },
+  "__v": 0
+}]

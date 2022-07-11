@@ -1,0 +1,100 @@
+[{
+  "_id": {
+    "$oid": "62cc3e48a572115f64351db8"
+  },
+  "title": "Basic Of Engineering",
+  "type": {
+    "$oid": "62cc398bbf3bd6175fb3d5d7"
+  },
+  "subjects": [
+    {
+      "$oid": "62cc3b842f013f69ea7e7912"
+    },
+    {
+      "$oid": "62cc3bb32f013f69ea7e7914"
+    },
+    {
+      "$oid": "62cc3bd72f013f69ea7e7916"
+    }
+  ],
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657552456134"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657552456134"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cc3f09a572115f64351dba"
+  },
+  "title": "CA Fundamentals",
+  "type": {
+    "$oid": "62cc398bbf3bd6175fb3d5d7"
+  },
+  "subjects": [
+    {
+      "$oid": "62cc3bd72f013f69ea7e7916"
+    },
+    {
+      "$oid": "62cc3c132f013f69ea7e791a"
+    },
+    {
+      "$oid": "62cc3c332f013f69ea7e791c"
+    }
+  ],
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657552649276"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657552649276"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cc3f67a572115f64351dbc"
+  },
+  "title": "International Arts",
+  "type": {
+    "$oid": "62cc3999bf3bd6175fb3d5d9"
+  },
+  "subjects": [
+    {
+      "$oid": "62cc3bd72f013f69ea7e7916"
+    },
+    {
+      "$oid": "62cc3be42f013f69ea7e7918"
+    },
+    {
+      "$oid": "62cc3c332f013f69ea7e791c"
+    }
+  ],
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657552743649"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657552743649"
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "62cc398bbf3bd6175fb3d5d7"
+  },
+  "title": "Basic",
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657551243275"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657551243275"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cc3999bf3bd6175fb3d5d9"
+  },
+  "title": "Detailed",
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657551257231"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657551257231"
+    }
+  },
+  "__v": 0
+}]
