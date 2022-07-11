@@ -30,7 +30,7 @@ routes folder => api routes
 
 utils folder =>  has middleware for validating jwt auth
 
-PostManCollection.json => Has postman collection for api testing
+PostManCollection.json => Has postman collection for api testing.Make sure Body always JSON Type
 
 for PATCH and DELETE use path params
 
