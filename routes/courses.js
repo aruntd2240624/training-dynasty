@@ -8,8 +8,8 @@ router.get("/", async (req, res) => {
     path : 'stream',
     match: {stream : {$eq : req.query.stream }}
   }).populate({
-    path : 'subjects',
-    match: {title : {$eq : req.query.subject}}
+    path : 'subject',
+    match: {subject : {$eq : req.query.subject}}
   }).populate('lastUpdatedBy').limit( req.query.limit || 10);
   res.send(course);
 });
@@ -19,7 +19,6 @@ router.post("/", async (req, res) => {
   const course = new Courses({
     title:  req.body.title,
     type:  req.body.type,
-    stream: req.body.stream,
     subjects:  req.body.subjects,
     lastUpdatedBy:  req.user.id
   });

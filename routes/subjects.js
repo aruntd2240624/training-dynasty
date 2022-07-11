@@ -5,14 +5,15 @@ const router = express.Router();
 // Get all subjects
 router.get("/", async (req, res) => {
   console.log(req);
-  const subject = await Subjects.find().sort({title: req.query.sort || 1}).limit(req.query.limit || 10);
+  const subject = await Subjects.find().sort({subject: req.query.sort || 1}).limit(req.query.limit || 10);
   res.send(subject);
 });
 
 // Get all subjects
 router.post("/", async (req, res) => {
   const subject = new Subjects({
-    title: req.body.title,
+    subject: req.body.subject,
+	stream:req.body.stream,
     lastUpdatedBy: req.user.id,
   });
   await subject.save();
@@ -36,8 +37,8 @@ router.patch("/:id", async (req, res) => {
   try {
 		const subject = await Subjects.findOne({ _id: req.params.id })
 
-		if (req.body.title) {
-			subject.title = req.body.title
+		if (req.body.subjects) {
+			subject.subject = req.body.title
 		}
 
 

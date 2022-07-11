@@ -1,0 +1,518 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Training Management System",
+		"_postman_id": "627462e4-b9e1-b58d-3466-f2572f11f7dc",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Training Courses",
+			"description": "",
+			"item": [
+				{
+					"name": "GET",
+					"request": {
+						"url": {
+							"raw": "http://localhost:5000/api/courses?subject=Maths",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"courses"
+							],
+							"query": [
+								{
+									"key": "stream",
+									"value": "Science",
+									"disabled": true
+								},
+								{
+									"key": "subject",
+									"value": "Maths",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "key ",
+								"description": ""
+							}
+						],
+						"body": {},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"url": "http://localhost:5000/api/courses",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc1NTExMjQsImV4cCI6MTY1NzU1NDcyNH0.y5P3gIs2X1hDVPR8zut0YKDcAaMfU9F9izgmrkMa0qU",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":  \"Basic Of Engineering\",\r\n    \"type\":  \"62cc398bbf3bd6175fb3d5d7\",\r\n    \"subjects\":  [\r\n        \"62cc3b842f013f69ea7e7912\",\r\n        \"62cc3bb32f013f69ea7e7914\",\r\n        \"62cc3bd72f013f69ea7e7916\"\r\n    ]\r\n  }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"url": "http://localhost:5000/api/courses/62c71bd418aabd49e6d8ac8c",
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":  \"International arts\",\r\n    \"type\":  \"62c7110149db133fecb3a4d2\",\r\n    \"stream\": \"62c714f9f8a11e211653abe8\",\r\n    \"subjects\":  [\r\n        \"62c7184bd9a295dc5438e1fa\",\r\n        \"62c7185fd9a295dc5438e200\",\r\n        \"62c71855d9a295dc5438e1fe\"\r\n    ]\r\n  }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"url": "http://localhost:5000/api/courses/62c71d182904acfae5654b1f",
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Course Type",
+			"description": "",
+			"item": [
+				{
+					"name": "GET",
+					"request": {
+						"url": "http://localhost:5000/api/coursetype",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"url": "http://localhost:5000/api/coursetype",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc1NTExMjQsImV4cCI6MTY1NzU1NDcyNH0.y5P3gIs2X1hDVPR8zut0YKDcAaMfU9F9izgmrkMa0qU",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Detailed\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"url": "http://localhost:5000/api/coursetype/62c7b599aba337edaa615f3f",
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Detailedssssss\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"url": "http://localhost:5000/api/coursetype/62c7b57fe9e44e2c3369fc50",
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Roles",
+			"description": "",
+			"item": [
+				{
+					"name": "GET",
+					"request": {
+						"url": "http://localhost:5000/api/roles",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"url": "http://localhost:5000/api/roles",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Super Admin\",\r\n    \"level\":100\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"url": "http://localhost:5000/api/roles/62c70e1131df2675a3341f40",
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Admin\",\r\n    \"level\":101\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"url": "http://localhost:5000/api/roles/62c70cac31df2675a3341f37",
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Streams",
+			"description": "",
+			"item": [
+				{
+					"name": "GET",
+					"request": {
+						"url": "http://localhost:5000/api/streams",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"url": "http://localhost:5000/api/streams",
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"Commercdadsade\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"url": "http://localhost:5000/api/streams/62c71500f8a11e211653abea",
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Commerce\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"url": "http://localhost:5000/api/streams/62c71571f8a11e211653abef",
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Subjects",
+			"description": "",
+			"item": [
+				{
+					"name": "GET",
+					"request": {
+						"url": {
+							"raw": "http://localhost:5000/api/subjects?sort=1&limit=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"subjects"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"url": "http://localhost:5000/api/subjects",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc1NTExMjQsImV4cCI6MTY1NzU1NDcyNH0.y5P3gIs2X1hDVPR8zut0YKDcAaMfU9F9izgmrkMa0qU",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"subject\": \"Finance\",\r\n    \"stream\": \"62cc3a20bf3bd6175fb3d5df\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"url": "http://localhost:5000/api/subjects/62c7185fd9a295dc5438e200",
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Social Science\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"url": "http://localhost:5000/api/subjects/62c70bce31df2675a3341f2b",
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"description": "",
+			"item": [
+				{
+					"name": "UPDATE PASSWORD",
+					"request": {
+						"url": "http://localhost:5000/api/users/update-password",
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\":\"62c6f48cd693525c4b0d8f2e\",\r\n    \"oldpassword\":  \"password\",\r\n    \"password\":\"pass\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "GET",
+					"request": {
+						"url": "http://localhost:5000/api/users",
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "CREATE",
+					"request": {
+						"url": "http://localhost:5000/api/users",
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Arun\",\r\n    \"email\": \"testuser@gmail.com\",\r\n    \"password\": \"12345\",\r\n    \"role\": \"62c6ede75938891a1d9a2e9e\"\r\n  }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "UPDATE",
+					"request": {
+						"url": "http://localhost:5000/api/users/62c70e9e31df2675a3341f45",
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\" : \"62c70dcc31df2675a3341f3b\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"description": "",
+			"item": [
+				{
+					"name": "Sign up",
+					"request": {
+						"url": "http://localhost:5000/api/auth/signup",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":  \"Arun\",\r\n    \"email\":  \"arun@gmail.com\",\r\n    \"password\":  \"password\",\r\n    \"role\":\"62cc37cf28f5e7335210aee0\"\r\n  }"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"url": "http://localhost:5000/api/auth/login",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"arun@gmail.com\",\r\n    \"password\": \"password\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
