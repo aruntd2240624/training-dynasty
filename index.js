@@ -20,7 +20,11 @@ mongoose
     app.use(express.json())
 
     app.use("/api/auth", auth)
+    //take out the authentication to create the Super Admin Role in First
+    //app.use("/api/roles", rolesRoutes)
     app.use("/api/roles",authenticateToken, rolesRoutes)
+    //take out the authentication to create the First User
+    //app.use("/api/users", userRoutes)
     app.use("/api/users",authenticateToken, userRoutes)
     app.use("/api/coursetype",authenticateToken, coursetype)
     app.use("/api/courses",authenticateToken, courses)

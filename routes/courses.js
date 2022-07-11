@@ -6,7 +6,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   const course = await Courses.find().populate('type').populate({
     path : 'stream',
-    match: {title : {$eq : req.query.stream }}
+    match: {stream : {$eq : req.query.stream }}
   }).populate({
     path : 'subjects',
     match: {title : {$eq : req.query.subject}}

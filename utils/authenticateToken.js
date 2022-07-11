@@ -15,10 +15,12 @@ const authenticateToken = (req, res, next) => {
 
     req.user = user
 
+    //Super Admin//Admin
+
     if(req.method == "POST" ||req.method =="PATCH" || req.method =="DELETE"){
 
-      if(!user.level) return res.send({error:"You are not authorised to do this operation"})
-
+      if(!user.level) return res.send({error:"You are not authorised to do this operation"})     
+      
       if(user.level == 100 || user.level == 101) return next()
 
       return res.send({error:"You are not authorised to do this operation"})
