@@ -50,7 +50,7 @@ Steps to execute the API:
 1.Create Database training-dynasty in mongoDB.Make sure the DB name in index.js file.and run the api "npm run start"."Server has started"
 2.We need a One role and One User to play with this API.
 3.For this,remove "authenticateToken" in Role and User routing in index.js file.(For First time only).
-4.Now import postman collection  "PostManCollection.json" in your postman app
+4.Now import postman collection  "TrainingManagementPostmanCollection.json" in your postman app
 5.Move to Roles->Create   //Create Roles
 URL:http://localhost:5000/api/roles
 Type:JSON
