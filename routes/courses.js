@@ -20,7 +20,11 @@ router.get("/", async (req, res) => {
             tempSubjects.push(d._id);
           })    
       //Filter Courses
-        Courses.find({ subjects: { $in: tempSubjects } }).limit( req.query.limit || 10).distinct('title')  //filter with Subject ID
+        Courses.find({ subjects: { $in: tempSubjects } })//filter with Subject ID
+        .populate('courseType')
+        .populate('subjects')
+        .populate('lastUpdatedBy')
+        .limit( req.query.limit || 10)       
           .then(data => {
             res.send(data);
           })
@@ -42,7 +46,11 @@ router.get("/", async (req, res) => {
                   tempTypes.push(d._id);
               })    
 
-             Courses.find({ courseType: tempTypes }).limit( req.query.limit || 10).distinct('title') //filter with Type ID
+             Courses.find({ courseType: tempTypes }) //filter with Type ID
+             .populate('courseType')
+             .populate('subjects')
+             .populate('lastUpdatedBy')
+             .limit( req.query.limit || 10)           
               .then(data => {
                 res.send(data);
               })
@@ -77,7 +85,11 @@ router.get("/", async (req, res) => {
                 })
                              
                          //3rd Block
-                          Courses.find({ subjects: { $in: tempSubjects } }).limit( req.query.limit || 10).distinct('title')  //filter with Subject ID
+                          Courses.find({ subjects: { $in: tempSubjects } }) //filter with Subject ID
+                          .populate('courseType')
+                          .populate('subjects')
+                          .populate('lastUpdatedBy')
+                          .limit( req.query.limit || 10)
                           .then(data2 => {
                             res.send(data2);
                           })//End 3rd Block
