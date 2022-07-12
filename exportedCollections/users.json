@@ -6,7 +6,7 @@
   "email": "arun@gmail.com",
   "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
   "role": {
-    "$oid": "62cc37cf28f5e7335210aee0"
+    "$oid": "62cd15e84270f4a05e26076e"
   },
   "created_at": {
     "$date": {

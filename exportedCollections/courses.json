@@ -1,20 +1,20 @@
 [{
   "_id": {
-    "$oid": "62cc3e48a572115f64351db8"
+    "$oid": "62cd1f99d48dd5bce10314a6"
   },
-  "title": "Basic Of Engineering",
+  "title": "Basics Of Engineering",
   "courseType": {
-    "$oid": "62cc398bbf3bd6175fb3d5d7"
+    "$oid": "62cd16c802cd4a8080f5d2ef"
   },
   "subjects": [
     {
-      "$oid": "62cc3b842f013f69ea7e7912"
+      "$oid": "62cd19ac0da4f4757fc3ed27"
     },
     {
-      "$oid": "62cc3bb32f013f69ea7e7914"
+      "$oid": "62cd19b60da4f4757fc3ed29"
     },
     {
-      "$oid": "62cc3bd72f013f69ea7e7916"
+      "$oid": "62cd19d10da4f4757fc3ed2b"
     }
   ],
   "lastUpdatedBy": {
@@ -22,32 +22,32 @@
   },
   "created_at": {
     "$date": {
-      "$numberLong": "1657552456134"
+      "$numberLong": "1657610137117"
     }
   },
   "updated_at": {
     "$date": {
-      "$numberLong": "1657552456134"
+      "$numberLong": "1657610137117"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62cc3f09a572115f64351dba"
+    "$oid": "62cd1fced48dd5bce10314a8"
   },
   "title": "CA Fundamentals",
   "courseType": {
-    "$oid": "62cc398bbf3bd6175fb3d5d7"
+    "$oid": "62cd16c802cd4a8080f5d2ef"
   },
   "subjects": [
     {
-      "$oid": "62cc3bd72f013f69ea7e7916"
+      "$oid": "62cd198f0da4f4757fc3ed25"
     },
     {
-      "$oid": "62cc3c132f013f69ea7e791a"
+      "$oid": "62cd19380da4f4757fc3ed23"
     },
     {
-      "$oid": "62cc3c332f013f69ea7e791c"
+      "$oid": "62cd19d10da4f4757fc3ed2b"
     }
   ],
   "lastUpdatedBy": {
@@ -55,32 +55,32 @@
   },
   "created_at": {
     "$date": {
-      "$numberLong": "1657552649276"
+      "$numberLong": "1657610190330"
     }
   },
   "updated_at": {
     "$date": {
-      "$numberLong": "1657552649276"
+      "$numberLong": "1657610190330"
     }
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "62cc3f67a572115f64351dbc"
+    "$oid": "62cd2021d48dd5bce10314aa"
   },
   "title": "International Arts",
   "courseType": {
-    "$oid": "62cc3999bf3bd6175fb3d5d9"
+    "$oid": "62cd16b402cd4a8080f5d2ed"
   },
   "subjects": [
     {
-      "$oid": "62cc3bd72f013f69ea7e7916"
+      "$oid": "62cd19380da4f4757fc3ed23"
     },
     {
-      "$oid": "62cc3be42f013f69ea7e7918"
+      "$oid": "62cd19d90da4f4757fc3ed2d"
     },
     {
-      "$oid": "62cc3c332f013f69ea7e791c"
+      "$oid": "62cd19d10da4f4757fc3ed2b"
     }
   ],
   "lastUpdatedBy": {
@@ -88,12 +88,144 @@
   },
   "created_at": {
     "$date": {
-      "$numberLong": "1657552743649"
+      "$numberLong": "1657610273041"
     }
   },
   "updated_at": {
     "$date": {
-      "$numberLong": "1657552743649"
+      "$numberLong": "1657610273041"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd2316e3afc6fe1dc37641"
+  },
+  "title": "International Arts",
+  "courseType": {
+    "$oid": "62cd16b402cd4a8080f5d2ed"
+  },
+  "subjects": [
+    {
+      "$oid": "62cd19380da4f4757fc3ed23"
+    },
+    {
+      "$oid": "62cd19d90da4f4757fc3ed2d"
+    },
+    {
+      "$oid": "62cd19d10da4f4757fc3ed2b"
+    }
+  ],
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657611030465"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657611030465"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd23dcbaf13b1434fb1604"
+  },
+  "title": "International Arts",
+  "courseType": {
+    "$oid": "62cd16b402cd4a8080f5d2ed"
+  },
+  "subjects": [
+    {
+      "$oid": "62cd19380da4f4757fc3ed23"
+    },
+    {
+      "$oid": "62cd19d90da4f4757fc3ed2d"
+    },
+    {
+      "$oid": "62cd19d10da4f4757fc3ed2b"
+    }
+  ],
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657611228492"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657611228492"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd249c8acfc7136bc6a9ad"
+  },
+  "title": "International Arts",
+  "courseType": {
+    "$oid": "62cd16b402cd4a8080f5d2ed"
+  },
+  "subjects": [
+    {
+      "$oid": "62cd19380da4f4757fc3ed23"
+    },
+    {
+      "$oid": "62cd19d90da4f4757fc3ed2d"
+    },
+    {
+      "$oid": "62cd19d10da4f4757fc3ed2b"
+    }
+  ],
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657611420026"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657611420026"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd24eb02a3b6bdd8f5296d"
+  },
+  "title": "International Arts",
+  "courseType": {
+    "$oid": "62cd16b402cd4a8080f5d2ed"
+  },
+  "subjects": [
+    {
+      "$oid": "62cd19380da4f4757fc3ed23"
+    },
+    {
+      "$oid": "62cd19d90da4f4757fc3ed2d"
+    },
+    {
+      "$oid": "62cd19d10da4f4757fc3ed2b"
+    }
+  ],
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657611499816"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657611499816"
     }
   },
   "__v": 0

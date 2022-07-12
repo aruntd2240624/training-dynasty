@@ -1,22 +1,8 @@
 [{
   "_id": {
-    "$oid": "62cc37cf28f5e7335210aee0"
+    "$oid": "62cd15e84270f4a05e26076e"
   },
   "title": "Super Admin",
   "level": 100,
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62cc37d928f5e7335210aee2"
-  },
-  "title": "Admin",
-  "level": 101,
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "62cc383028f5e7335210aee4"
-  },
-  "title": "User",
-  "level": 1,
   "__v": 0
 }]
