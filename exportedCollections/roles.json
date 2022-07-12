@@ -5,4 +5,18 @@
   "title": "Super Admin",
   "level": 100,
   "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd5f363d96e0d5fdabbcf1"
+  },
+  "title": "Admin",
+  "level": 101,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd5f5e3d96e0d5fdabbcf3"
+  },
+  "title": "User",
+  "level": 1,
+  "__v": 0
 }]

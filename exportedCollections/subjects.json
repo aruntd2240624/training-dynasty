@@ -130,4 +130,26 @@
     }
   },
   "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd60ed3d96e0d5fdabbcf7"
+  },
+  "subject": "Tamil",
+  "stream": {
+    "$oid": "62cc3a20bf3bd6175fb3d5df"
+  },
+  "lastUpdatedBy": {
+    "$oid": "62cc387328f5e7335210aee6"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657626861850"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657626861850"
+    }
+  },
+  "__v": 0
 }]

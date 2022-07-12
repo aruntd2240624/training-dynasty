@@ -1,5 +1,6 @@
 const express = require("express");
 const Users = require("../models/Users");
+const bcrypt = require("bcrypt");
 const router = express.Router();
 
 // Get all Users
@@ -27,9 +28,38 @@ router.post("/:id", async (req, res) => {
     res.send(user);
   } catch {
     res.status(404);
-    res.send({ error: "user doesn't exist!" });
+    res.send({ error: "user doesn't exist1!" });
   }
 });
+
+// Update password
+router.patch("/update-password", async (req, res) => {
+  const { id,oldpassword, password } = req.body;
+
+ 
+  if (!oldpassword) return res.send("Password is required");
+  if (!password) return res.send("New Password is required");
+
+  const user = await Users.findOne({ _id: id }); 
+  
+ 
+  if (!user) return res.send("User details not found");
+
+  const validate = await bcrypt.compare(oldpassword, user.password);
+
+
+  if (!validate) return res.send("User details not found");
+
+  if (req.body.password) {
+    user.password = req.body.password;
+  }
+
+  await user.save();
+  res.send({
+    message : "Password Updated successfully"
+  });
+});
+
 
 // Update user by id
 router.patch("/:id", async (req, res) => {
@@ -45,37 +75,19 @@ router.patch("/:id", async (req, res) => {
       user.role = req.body.role;
     }
 
+  
+    
+
     await user.save();
+
+    console.log(req.body.name);
     res.send(user);
   } catch {
     res.status(404);
-    res.send({ error: "user doesn't exist!" });
+    res.send({ error: "user doesn't exist2!" });
   }
 });
 
-// Update password
-router.patch("/update-password", async (req, res) => {
-  const { id,oldpassword, password } = req.body;
-  if (!oldpassword) return res.send("Password is required");
-  if (!password) return res.send("New Password is required");
-
-  const user = await Users.findOne({ _id: id });
-
-  if (!user) return res.send("User details not found");
-
-  const validate = await bcrypt.compare(oldpassword, user.password);
-
-  if (!validate) return res.send("User details not found");
-
-  if (req.body.password) {
-    user.password = req.body.password;
-  }
-
-  await user.save();
-  res.send({
-    message : "Password Updated successfully"
-  });
-});
 
 // Get user by id
 router.delete("/:id", async (req, res) => {

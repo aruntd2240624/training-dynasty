@@ -3,9 +3,8 @@ const Subjects = require("../models/Subjects");
 const router = express.Router();
 
 // Get all subjects
-router.get("/", async (req, res) => {
-  console.log(req);
-  const subject = await Subjects.find().sort({subject: req.query.sort || 1}).limit(req.query.limit || 10);
+router.get("/", async (req, res) => { 
+  const subject = await Subjects.find().sort({subject: req.query.sort || 1}).limit(req.query.limit || 10)
   res.send(subject);
 });
 

@@ -2,7 +2,7 @@
 	"variables": [],
 	"info": {
 		"name": "Training Management System",
-		"_postman_id": "ac657ca4-24aa-792a-ddc6-016d93d6f172",
+		"_postman_id": "11cc3990-5215-4396-3bf8-389563038c54",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -39,7 +39,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MTc0NTAsImV4cCI6MTY1NzYyMTA1MH0.SaBAKQ1LpUp_ELQ0aOpHhcGauyyxgVtKdkcEmszS_sg",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MjU4NTYsImV4cCI6MTY1NzYyOTQ1Nn0.3gduADFqo56k1ZHZFEDhqyxOZZk45VpKZWnSSm3vZNc",
 								"description": ""
 							},
 							{
@@ -216,6 +216,11 @@
 								"key": "Content-Type",
 								"value": "application/json",
 								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MjU4NTYsImV4cCI6MTY1NzYyOTQ1Nn0.3gduADFqo56k1ZHZFEDhqyxOZZk45VpKZWnSSm3vZNc",
+								"description": ""
 							}
 						],
 						"body": {
@@ -367,7 +372,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MTM3NjYsImV4cCI6MTY1NzYxNzM2Nn0.v4Bg5yu3clxbAvz8NPV4fwnt-tyYDmLWjpLI5U1V8Io",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MjU4NTYsImV4cCI6MTY1NzYyOTQ1Nn0.3gduADFqo56k1ZHZFEDhqyxOZZk45VpKZWnSSm3vZNc",
 								"description": ""
 							}
 						],
@@ -387,7 +392,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MDgwNzIsImV4cCI6MTY1NzYxMTY3Mn0.lFl96e6a00bXTzrXooQSIaLbRGkQIapUf6NWORi-338",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MjU4NTYsImV4cCI6MTY1NzYyOTQ1Nn0.3gduADFqo56k1ZHZFEDhqyxOZZk45VpKZWnSSm3vZNc",
 								"description": ""
 							},
 							{
@@ -443,10 +448,21 @@
 					"request": {
 						"url": "http://localhost:5000/api/users/update-password",
 						"method": "PATCH",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MzMyMzUsImV4cCI6MTY1NzYzNjgzNX0.t5y0f4Yt6bsEg-fQPHYSQJ0A-0Am7vioQo-08YVrL94",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\":\"62c6f48cd693525c4b0d8f2e\",\r\n    \"oldpassword\":  \"password\",\r\n    \"password\":\"pass\"\r\n}"
+							"raw": "{\r\n    \"id\":\"62cd5f8a3d96e0d5fdabbcf5\",\r\n    \"oldpassword\":  \"pass\",\r\n    \"password\":\"password\"\r\n}"
 						},
 						"description": ""
 					},
@@ -483,12 +499,23 @@
 				{
 					"name": "UPDATE",
 					"request": {
-						"url": "http://localhost:5000/api/users/62c70e9e31df2675a3341f45",
+						"url": "http://localhost:5000/api/users/62cd5f8a3d96e0d5fdabbcf5",
 						"method": "PATCH",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MzIxNDksImV4cCI6MTY1NzYzNTc0OX0.4UDGYlBfQ6Ks1CSK7WrfKjLcduTtXReM1_U9gzamj9U",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"role\" : \"62c70dcc31df2675a3341f3b\"\r\n}"
+							"raw": "{\r\n    \"name\" : \"ARUN1\"\r\n}"
 						},
 						"description": ""
 					},
@@ -510,11 +537,16 @@
 								"key": "Content-Type",
 								"value": "application/json",
 								"description": ""
+							},
+							{
+								"key": "Authorization",
+								"value": "key eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyY2MzODczMjhmNWU3MzM1MjEwYWVlNiIsImVtYWlsIjoiYXJ1bkBnbWFpbC5jb20iLCJsZXZlbCI6MTAwLCJpYXQiOjE2NTc2MjU4NTYsImV4cCI6MTY1NzYyOTQ1Nn0.3gduADFqo56k1ZHZFEDhqyxOZZk45VpKZWnSSm3vZNc",
+								"description": ""
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":  \"Arun\",\r\n    \"email\":  \"arun@gmail.com\",\r\n    \"password\":  \"password\",\r\n    \"role\":\"62cc37cf28f5e7335210aee0\"\r\n  }"
+							"raw": "{\r\n    \"name\":  \"User1\",\r\n    \"email\":  \"user@gmail.com\",\r\n    \"password\":  \"password\",\r\n    \"role\":\"62cd5f5e3d96e0d5fdabbcf3\"\r\n  }"
 						},
 						"description": ""
 					},

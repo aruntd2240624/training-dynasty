@@ -20,7 +20,7 @@ router.get("/", async (req, res) => {
             tempSubjects.push(d._id);
           })    
       //Filter Courses
-        Courses.find({ subjects: { $in: tempSubjects } }).limit( req.query.limit || 10)  //filter with Subject ID
+        Courses.find({ subjects: { $in: tempSubjects } }).limit( req.query.limit || 10).distinct('title')  //filter with Subject ID
           .then(data => {
             res.send(data);
           })
@@ -42,7 +42,7 @@ router.get("/", async (req, res) => {
                   tempTypes.push(d._id);
               })    
 
-             Courses.find({ courseType: tempTypes }).limit( req.query.limit || 10) //filter with Type ID
+             Courses.find({ courseType: tempTypes }).limit( req.query.limit || 10).distinct('title') //filter with Type ID
               .then(data => {
                 res.send(data);
               })
@@ -64,11 +64,9 @@ router.get("/", async (req, res) => {
               tempStreams.push(d._id);
             }) 
 
-            console.log(tempStreams);
+           
             let streamId=tempStreams.toString();
-            streamsAry.push(streamId);
-
-            console.log(streamsAry);
+            streamsAry.push(streamId);           
 
             //Seond block
             Subjects.find({ stream:{ $in: streamsAry }  }).limit( req.query.limit || 10) 
@@ -77,9 +75,7 @@ router.get("/", async (req, res) => {
                 data1.map((d, k) => {
                   tempSubjects.push(d._id);
                 })
-
-                console.log(tempSubjects);
-                
+                             
                          //3rd Block
                           Courses.find({ subjects: { $in: tempSubjects } }).limit( req.query.limit || 10).distinct('title')  //filter with Subject ID
                           .then(data2 => {
@@ -98,7 +94,7 @@ router.get("/", async (req, res) => {
     })
 }else{  //Get All
 
-  Courses.find().limit( req.query.limit || 10)  
+  Courses.find().limit( req.query.limit || 10).distinct('title')  
   .then(data => {
     res.send(data);
   })

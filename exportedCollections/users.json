@@ -19,4 +19,25 @@
     }
   },
   "__v": 0
+},{
+  "_id": {
+    "$oid": "62cd5f8a3d96e0d5fdabbcf5"
+  },
+  "name": "ARUN1",
+  "email": "user@gmail.com",
+  "password": "$2b$10$YIppQepXYP5yZRTu1RY.k.d2wY7ucFqsfFcT3vW4uRzq4bXZBfuDO",
+  "role": {
+    "$oid": "62cd5f5e3d96e0d5fdabbcf3"
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1657626506918"
+    }
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1657626506918"
+    }
+  },
+  "__v": 0
 }]
