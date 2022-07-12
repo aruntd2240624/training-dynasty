@@ -1,40 +1,133 @@
 const express = require("express");
 const Courses = require("../models/Courses");
+const CourseType = require("../models/CourseType");
+const Subjects = require("../models/Subjects");
+const Streams = require("../models/Streams");
 const router = express.Router();
 
 // Get all Courses
 router.get("/", async (req, res) => {
- /*const course = await Courses.find().populate('type').populate({
-    path : 'stream',
-    match: {stream : {$eq : req.query.stream }}
-  }).populate({
-    path : 'subject',
-    match: {subject : {$eq : req.query.subject}}
-  }).populate('lastUpdatedBy').limit( req.query.limit || 10);
-  res.send(course); */
+  let tempSubjects=[]
+  let tempTypes=[]
+  let tempStreams=[] 
+ 
+  if(req.query.subject && req.query.subject.length > 0){  //search by subject   
+     //Get Subject ID by subject
+      Subjects.find({subject:req.query.subject})
+        .then(data => {
+          //Push ID to Array  
+          data.map((d, k) => {
+            tempSubjects.push(d._id);
+          })    
+      //Filter Courses
+        Courses.find({ subjects: { $in: tempSubjects } }).limit( req.query.limit || 10)  //filter with Subject ID
+          .then(data => {
+            res.send(data);
+          })
+          .catch(error => {
+            res.send({ error: "Error in finding Course!" });
+          })
+      })
+      .catch(error => {
+        res.send({ error: "Subject doesn't exist!" });
+      })
 
+  }else if(req.query.type && req.query.type.length > 0){  //search by Type      
 
-  const course = await Courses.find().populate({
-    path: 'subjects',
-    match: {
-      subject: req.query.subject
-    }
-  }).exec(function(err, courses) {
+          //Get Course type ID by title
+          CourseType.find({ title:req.query.type})
+          .then(data => {
+             //Push ID to Array  
+              data.map((d, k) => {
+                  tempTypes.push(d._id);
+              })    
+
+             Courses.find({ courseType: tempTypes }).limit( req.query.limit || 10) //filter with Type ID
+              .then(data => {
+                res.send(data);
+              })
+              .catch(error => {
+                res.send({ error: "Error in finding Course!" });
+              })
+      })
+      .catch(error => {
+        res.send({ error: "Type doesn't exist!" });
+      })
+  }else if(req.query.stream && req.query.stream.length > 0){  //search by Stream  
+         let streamsAry=[];
+        //Get Streams ID by title
+        //Main block
+      Streams.find({ title:req.query.stream})  //Main block
+        .then(data => {
+           //Push ID to Array  
+            data.map((d, k) => {
+              tempStreams.push(d._id);
+            }) 
+
+            console.log(tempStreams);
+            let streamId=tempStreams.toString();
+            streamsAry.push(streamId);
+
+            console.log(streamsAry);
+
+            //Seond block
+            Subjects.find({ stream:{ $in: streamsAry }  }).limit( req.query.limit || 10) 
+              .then(data1 => {
+                //Push ID to Array  
+                data1.map((d, k) => {
+                  tempSubjects.push(d._id);
+                })
+
+                console.log(tempSubjects);
+                
+                         //3rd Block
+                          Courses.find({ subjects: { $in: tempSubjects } }).limit( req.query.limit || 10).distinct('title')  //filter with Subject ID
+                          .then(data2 => {
+                            res.send(data2);
+                          })//End 3rd Block
+                          .catch(error => {
+                            res.send({ error: "Error in finding Course!" });
+                          })
+            })//End Second Block
+             .catch(error => {
+              res.send({ error: "Stream doesn't exist!" });
+            })             
+    })//End Main Block
+    .catch(error => {
+      res.send({ error: "Stream doesn't exist!" });
+    })
+}else{  //Get All
+
+  Courses.find().limit( req.query.limit || 10)  
+  .then(data => {
+    res.send(data);
+  })
+  .catch(error => {
+    res.send({ error: "Error in finding Course!" });
+  })
+
+}
+
+ 
+
+   /* const course = await Courses.find().populate('courseType').populate({
+      path : 'courseType',
+      match: {courseType : {$eq : req.query.type }}
+    }).limit( req.query.limit || 10);*/
+
+   // console.log(course);
+
+  //}
    
-    courses = courses.filter(function(course) {
-    console.log(course.subjects);
 
-      return course.subject; // return only users with email matching 'type: "Gmail"' query
-      
-    });
-  });
+
 });
 
 // Get all Courses
 router.post("/", async (req, res) => {
   const course = new Courses({
     title:  req.body.title,
-    type:  req.body.type,
+    courseType:  req.body.courseType,
     subjects:  req.body.subjects,
     lastUpdatedBy:  req.user.id
   });
