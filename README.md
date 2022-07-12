@@ -1,6 +1,9 @@
 # training_management
 for dynasty gaming
 
+## Git Clone
+git clone --branch main https://github.com/aruntd2240624/training-dynasty.git training-management-dynasty
+
 ## Install
 npm install
 
