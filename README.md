@@ -1254,26 +1254,6 @@ To Send
 
 Reply:
 {
-    "id":"62cd5f8a3d96e0d5fdabbcf5",
-    "oldpassword":  "password",
-    "password":"pass"
-}
-
-iii)Update Password: Move to Users->UPDATE PASSWORD(PATCH)
-
-URL:http://localhost:5000/api/users/update-password
-Type:JSON
-header:authorization Key =Token received from login
-
-To Send
-{
-    "id":"62cd5f8a3d96e0d5fdabbcf5",  //User ID
-    "oldpassword":  "password",
-    "password":"pass"
-}
-
-Reply:
-{
     "message": "Password Updated successfully"
 }
 
