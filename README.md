@@ -214,8 +214,23 @@ Reply:
     {
         "_id": "62cd198f0da4f4757fc3ed25",
         "subject": "Economics",
-        "stream": "62cd17f30da4f4757fc3ed1d",
-        "lastUpdatedBy": "62cc387328f5e7335210aee6",
+        "stream": {
+            "_id": "62cd17f30da4f4757fc3ed1d",
+            "title": "Commerce",
+            "created_at": "2022-07-12T06:42:59.513Z",
+            "updated_at": "2022-07-12T06:42:59.514Z",
+            "__v": 0
+        },
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
         "created_at": "2022-07-12T06:49:51.698Z",
         "updated_at": "2022-07-12T06:49:51.698Z",
         "__v": 0
@@ -223,8 +238,23 @@ Reply:
     {
         "_id": "62cd19d10da4f4757fc3ed2b",
         "subject": "English",
-        "stream": "62cd17fb0da4f4757fc3ed1f",
-        "lastUpdatedBy": "62cc387328f5e7335210aee6",
+        "stream": {
+            "_id": "62cd17fb0da4f4757fc3ed1f",
+            "title": "Arts",
+            "created_at": "2022-07-12T06:43:07.023Z",
+            "updated_at": "2022-07-12T06:43:07.023Z",
+            "__v": 0
+        },
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
         "created_at": "2022-07-12T06:50:57.504Z",
         "updated_at": "2022-07-12T06:50:57.504Z",
         "__v": 0
@@ -232,8 +262,23 @@ Reply:
     {
         "_id": "62cd19380da4f4757fc3ed23",
         "subject": "Finance",
-        "stream": "62cd17f30da4f4757fc3ed1d",
-        "lastUpdatedBy": "62cc387328f5e7335210aee6",
+        "stream": {
+            "_id": "62cd17f30da4f4757fc3ed1d",
+            "title": "Commerce",
+            "created_at": "2022-07-12T06:42:59.513Z",
+            "updated_at": "2022-07-12T06:42:59.514Z",
+            "__v": 0
+        },
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
         "created_at": "2022-07-12T06:48:24.496Z",
         "updated_at": "2022-07-12T06:48:24.496Z",
         "__v": 0
@@ -241,8 +286,23 @@ Reply:
     {
         "_id": "62cd19ac0da4f4757fc3ed27",
         "subject": "Maths",
-        "stream": "62cd18040da4f4757fc3ed21",
-        "lastUpdatedBy": "62cc387328f5e7335210aee6",
+        "stream": {
+            "_id": "62cd18040da4f4757fc3ed21",
+            "title": "Science",
+            "created_at": "2022-07-12T06:43:16.101Z",
+            "updated_at": "2022-07-12T06:43:16.101Z",
+            "__v": 0
+        },
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
         "created_at": "2022-07-12T06:50:20.071Z",
         "updated_at": "2022-07-12T06:50:20.071Z",
         "__v": 0
@@ -250,8 +310,23 @@ Reply:
     {
         "_id": "62cd19b60da4f4757fc3ed29",
         "subject": "Physics",
-        "stream": "62cd18040da4f4757fc3ed21",
-        "lastUpdatedBy": "62cc387328f5e7335210aee6",
+        "stream": {
+            "_id": "62cd18040da4f4757fc3ed21",
+            "title": "Science",
+            "created_at": "2022-07-12T06:43:16.101Z",
+            "updated_at": "2022-07-12T06:43:16.101Z",
+            "__v": 0
+        },
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
         "created_at": "2022-07-12T06:50:30.009Z",
         "updated_at": "2022-07-12T06:50:30.009Z",
         "__v": 0
@@ -259,23 +334,28 @@ Reply:
     {
         "_id": "62cd19d90da4f4757fc3ed2d",
         "subject": "Social science",
-        "stream": "62cd17fb0da4f4757fc3ed1f",
-        "lastUpdatedBy": "62cc387328f5e7335210aee6",
+        "stream": {
+            "_id": "62cd17fb0da4f4757fc3ed1f",
+            "title": "Arts",
+            "created_at": "2022-07-12T06:43:07.023Z",
+            "updated_at": "2022-07-12T06:43:07.023Z",
+            "__v": 0
+        },
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
         "created_at": "2022-07-12T06:51:05.600Z",
         "updated_at": "2022-07-12T06:51:05.600Z",
         "__v": 0
-    },
-    {
-        "_id": "62cd60ed3d96e0d5fdabbcf7",
-        "subject": "Tamil",
-        "stream": "62cc3a20bf3bd6175fb3d5df",
-        "lastUpdatedBy": "62cc387328f5e7335210aee6",
-        "created_at": "2022-07-12T11:54:21.850Z",
-        "updated_at": "2022-07-12T11:54:21.850Z",
-        "__v": 0
     }
 ]
-
 
 4.Get Training:ALL
 
@@ -284,9 +364,377 @@ URL:http://localhost:5000/api/courses
 header:authorization Key =Token received from login
 Reply:
 [
-    "Basics Of Engineering",
-    "CA Fundamentals",
-    "International Arts"
+    {
+        "_id": "62cd1f99d48dd5bce10314a6",
+        "title": "Basics Of Engineering",
+        "courseType": {
+            "_id": "62cd16c802cd4a8080f5d2ef",
+            "title": "Basic",
+            "created_at": "2022-07-12T06:38:00.007Z",
+            "updated_at": "2022-07-12T06:38:00.007Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19ac0da4f4757fc3ed27",
+                "subject": "Maths",
+                "stream": "62cd18040da4f4757fc3ed21",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:20.071Z",
+                "updated_at": "2022-07-12T06:50:20.071Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19b60da4f4757fc3ed29",
+                "subject": "Physics",
+                "stream": "62cd18040da4f4757fc3ed21",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:30.009Z",
+                "updated_at": "2022-07-12T06:50:30.009Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:15:37.117Z",
+        "updated_at": "2022-07-12T07:15:37.117Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd1fced48dd5bce10314a8",
+        "title": "CA Fundamentals",
+        "courseType": {
+            "_id": "62cd16c802cd4a8080f5d2ef",
+            "title": "Basic",
+            "created_at": "2022-07-12T06:38:00.007Z",
+            "updated_at": "2022-07-12T06:38:00.007Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd198f0da4f4757fc3ed25",
+                "subject": "Economics",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:49:51.698Z",
+                "updated_at": "2022-07-12T06:49:51.698Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:16:30.330Z",
+        "updated_at": "2022-07-12T07:16:30.330Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd2021d48dd5bce10314aa",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:17:53.041Z",
+        "updated_at": "2022-07-12T07:17:53.041Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd2316e3afc6fe1dc37641",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:30:30.465Z",
+        "updated_at": "2022-07-12T07:30:30.465Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd23dcbaf13b1434fb1604",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:33:48.492Z",
+        "updated_at": "2022-07-12T07:33:48.492Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd249c8acfc7136bc6a9ad",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:37:00.026Z",
+        "updated_at": "2022-07-12T07:37:00.026Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd24eb02a3b6bdd8f5296d",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:38:19.816Z",
+        "updated_at": "2022-07-12T07:38:19.816Z",
+        "__v": 0
+    }
 ]
 
 4.Get Training:By Subject
@@ -296,7 +744,59 @@ URL:http://localhost:5000/api/courses?subject=Maths
 header:authorization Key =Token received from login
 Reply:
 [
-    "Basics Of Engineering"    
+    {
+        "_id": "62cd1f99d48dd5bce10314a6",
+        "title": "Basics Of Engineering",
+        "courseType": {
+            "_id": "62cd16c802cd4a8080f5d2ef",
+            "title": "Basic",
+            "created_at": "2022-07-12T06:38:00.007Z",
+            "updated_at": "2022-07-12T06:38:00.007Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19ac0da4f4757fc3ed27",
+                "subject": "Maths",
+                "stream": "62cd18040da4f4757fc3ed21",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:20.071Z",
+                "updated_at": "2022-07-12T06:50:20.071Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19b60da4f4757fc3ed29",
+                "subject": "Physics",
+                "stream": "62cd18040da4f4757fc3ed21",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:30.009Z",
+                "updated_at": "2022-07-12T06:50:30.009Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:15:37.117Z",
+        "updated_at": "2022-07-12T07:15:37.117Z",
+        "__v": 0
+    }
 ]
 
 5.Get Training:By Stream
@@ -306,8 +806,324 @@ URL:http://localhost:5000/api/courses?stream=Commerce
 header:authorization Key =Token received from login
 Reply:
 [
-    "CA Fundamentals",
-    "International Arts"
+    {
+        "_id": "62cd1fced48dd5bce10314a8",
+        "title": "CA Fundamentals",
+        "courseType": {
+            "_id": "62cd16c802cd4a8080f5d2ef",
+            "title": "Basic",
+            "created_at": "2022-07-12T06:38:00.007Z",
+            "updated_at": "2022-07-12T06:38:00.007Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd198f0da4f4757fc3ed25",
+                "subject": "Economics",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:49:51.698Z",
+                "updated_at": "2022-07-12T06:49:51.698Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:16:30.330Z",
+        "updated_at": "2022-07-12T07:16:30.330Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd2021d48dd5bce10314aa",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:17:53.041Z",
+        "updated_at": "2022-07-12T07:17:53.041Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd2316e3afc6fe1dc37641",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:30:30.465Z",
+        "updated_at": "2022-07-12T07:30:30.465Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd23dcbaf13b1434fb1604",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:33:48.492Z",
+        "updated_at": "2022-07-12T07:33:48.492Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd249c8acfc7136bc6a9ad",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:37:00.026Z",
+        "updated_at": "2022-07-12T07:37:00.026Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd24eb02a3b6bdd8f5296d",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:38:19.816Z",
+        "updated_at": "2022-07-12T07:38:19.816Z",
+        "__v": 0
+    }
 ]
 
 6.Get Training:By Type
@@ -317,8 +1133,271 @@ URL:http://localhost:5000/api/courses?type=Basic
 header:authorization Key =Token received from login
 Reply:
 [
-    "Basics Of Engineering",
-    "CA Fundamentals"
+    {
+        "_id": "62cd2021d48dd5bce10314aa",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:17:53.041Z",
+        "updated_at": "2022-07-12T07:17:53.041Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd2316e3afc6fe1dc37641",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:30:30.465Z",
+        "updated_at": "2022-07-12T07:30:30.465Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd23dcbaf13b1434fb1604",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:33:48.492Z",
+        "updated_at": "2022-07-12T07:33:48.492Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd249c8acfc7136bc6a9ad",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:37:00.026Z",
+        "updated_at": "2022-07-12T07:37:00.026Z",
+        "__v": 0
+    },
+    {
+        "_id": "62cd24eb02a3b6bdd8f5296d",
+        "title": "International Arts",
+        "courseType": {
+            "_id": "62cd16b402cd4a8080f5d2ed",
+            "title": "Detailed",
+            "created_at": "2022-07-12T06:37:40.646Z",
+            "updated_at": "2022-07-12T06:37:40.647Z",
+            "__v": 0
+        },
+        "subjects": [
+            {
+                "_id": "62cd19380da4f4757fc3ed23",
+                "subject": "Finance",
+                "stream": "62cd17f30da4f4757fc3ed1d",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:48:24.496Z",
+                "updated_at": "2022-07-12T06:48:24.496Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d90da4f4757fc3ed2d",
+                "subject": "Social science",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:51:05.600Z",
+                "updated_at": "2022-07-12T06:51:05.600Z",
+                "__v": 0
+            },
+            {
+                "_id": "62cd19d10da4f4757fc3ed2b",
+                "subject": "English",
+                "stream": "62cd17fb0da4f4757fc3ed1f",
+                "lastUpdatedBy": "62cc387328f5e7335210aee6",
+                "created_at": "2022-07-12T06:50:57.504Z",
+                "updated_at": "2022-07-12T06:50:57.504Z",
+                "__v": 0
+            }
+        ],
+        "lastUpdatedBy": {
+            "_id": "62cc387328f5e7335210aee6",
+            "name": "Arun",
+            "email": "arun@gmail.com",
+            "password": "$2b$10$meUXyCBQk8vZnFcxf3/Q2O5xR3VrvEyReVz9P3tbIedjNH.JepLUG",
+            "role": "62cd15e84270f4a05e26076e",
+            "created_at": "2022-07-11T14:49:23.056Z",
+            "updated_at": "2022-07-11T14:49:23.057Z",
+            "__v": 0
+        },
+        "created_at": "2022-07-12T07:38:19.816Z",
+        "updated_at": "2022-07-12T07:38:19.816Z",
+        "__v": 0
+    }
 ]
 
 7.USER FLOW

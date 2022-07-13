@@ -104,9 +104,14 @@ router.get("/", async (req, res) => {
     .catch(error => {
       res.send({ error: "Stream doesn't exist!" });
     })
-}else{  //Get All
+}else{   //Get All Courses
 
-  Courses.find().limit( req.query.limit || 10).distinct('title')  
+  Courses.find()
+  .populate('courseType')
+  .populate('subjects')
+  .populate('lastUpdatedBy')
+  .limit( req.query.limit || 10)
+   
   .then(data => {
     res.send(data);
   })
