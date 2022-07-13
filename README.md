@@ -23,7 +23,7 @@ npm install dotenv
 ## jsonwebtoken for jwt
 npm install jsonwebtoken
 
-##mongoose used for as Mongodb OMD for NodeJS
+## mongoose used for as Mongodb ODM for NodeJS
 npm install mongoose
 
 ## Project Folder and Files
